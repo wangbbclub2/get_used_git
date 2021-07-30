@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	
+    <title>toggle測試??能否多個切換(未完成改用add和remove搭配)</title>
+    <style>
+	body {
+		background-color: #555566;
+		display: flex;
+		justify-content: center;
+		align-items: center;  /*要設定好height才會作用*/
+		height: 100vh;
+		
+	}
+	
+	.toggle-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#btn {
+		width:100px;
+		height:50px;
+		border-radius: 5px;
+		border: none;
+	}
+	
+	#btn:active {
+		transform: scale(0.98);
+	}
+	
+	.toggle {
+		font-size: 200px;
+	}
+	
+	.toggle001 {
+		color: red;
+	}
+	
+	.toggle002 {
+		color: blue;
+	}
+	
+	.toggle003 {
+		color: green;
+	}
+	
+	.toggle004 {
+		color: purple;
+	}
+	
+	</style> 
+</head>
+<body>
+
+    <div class="toggle-box">
+		<div class="toggle">COLOR</div>
+		<button id="btn">Change</button>
+	</div>
+
+    <script>
+	    /*JQuery1.9 toggle()有修改*//*改用add和remove切換*/
+		const toggleTest = document.querySelector(".toggle")
+		const btn = document.getElementById("btn")
+		
+		const max = 4
+		
+		let num = 0
+		
+		btn.addEventListener("click", () => {
+			
+			num++
+			
+			toggleTest.classList.remove(`toggle00${num-1}`)
+			toggleTest.classList.add(`toggle00${num}`)
+									
+			
+			if(num > max) {
+			
+				num = 0	
+
+				toggleTest.classList.remove(`toggle00${max}`)
+					
+			}
+			
+			
+		})	
+	
+	</script>
+
+    
+    
+</body>
+</html>
