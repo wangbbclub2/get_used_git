@@ -1,0 +1,174 @@
+body {
+	margin: 0px;
+	background: #e1e1e1;
+}
+
+#topBlock {
+	background: #4a90e2;
+	height: 75px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.bookMark {
+	background: #4a90e2;
+	color: #00408b;
+	text-align: center;
+	font-size: 24px;
+	height: 75px;
+	width: 220px;
+	border: none;
+}
+
+.select_bookMark {
+	color: #ffffff;
+	height: 70px;
+	border-bottom: solid 5px #00408b;
+}
+
+.inputName {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+
+
+/*InputTasksForm*/
+.InputTasksForm {
+	width: 620px;
+	margin: 0 auto;
+}
+
+.InputTask {
+	height: 385px;
+	background: #f2f2f2;
+	text-align: left;
+}
+
+.inputForm {
+	padding-left: 75px;
+}
+
+.inputStyle {
+	border: none;
+	font-size: 16px;
+}
+
+.inputDataTime {
+	height: 35px;
+	width: 162px;
+}
+
+.addButton {
+	width: 310px;
+	height: 60px;
+	font-size: 24px;
+	text-align: center;
+	border: none;
+}
+
+.saveButton {
+	background: #4a90e2;
+	color: #fff;
+}
+
+.cancelButton {
+	background: #fff;
+	color: #d0021b;
+}
+
+
+
+/*InputTask*/
+
+.inputTaskTitle {
+	width: 620px;
+	height: 75px;
+	background: #f2f2f2;
+	margin: 0px auto;
+	text-align: left;
+	border-bottom: solid 3px #c8c8c8;
+}
+
+.taskTitle {
+	background: #f2f2f2;
+	border: none;
+	height: 28px;
+	width: 380px;
+	font-size: 24px;
+	margin: 25px;
+}
+
+.taskChk {
+	margin-left: 20px;
+	zoom: 2;    /*???????*/
+}
+
+.icon {
+	margin-left: 20px;
+}
+
+.icon_edit {
+	color: #4a90e2;
+}
+
+
+/*AddTask*/
+
+.alignCenter {
+	text-align: center;
+}
+
+#addTask {
+	width: 620px;
+	height: 65px;
+	font-size: 24px;
+	color: #c8c8c8;
+	border: 2px solid #c8c8c8;
+	border-radius: 5px;
+}
+
+
+/*List*/
+.list {
+	background: #f2f2f2;
+	height: 100px;
+	width: 620px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.listBlock {
+	margin-top: 20px;
+
+}
+
+.listIcon {
+	color: #757575;
+	margin-top: -15px;
+	margin-left: 25px;
+	font-size: 16px;
+}
+
+.complete {
+	text-decoration: line-through;
+	color: #9b9b9b;
+}
+
+.important {
+	background: #fff2dc;
+}
+
+.iconImportant {
+	color: #f5a623;
+}
+
+
+
+
+.countText {
+	margin: 5px;
+	text-align: left;
+	font-size: 24px;
+	color: #c8c8c8;
+}
